@@ -1,4 +1,4 @@
-# My Demo App: API
+# My Demo App: API Backend
 
 A RESTful My Demo App API built with **Java 21** and **Quarkus 3.33**, providing CRUD operations for persistence.
 
