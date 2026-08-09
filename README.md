@@ -2,6 +2,8 @@
 
 A RESTful My Demo App API built with **Java 21** and **Quarkus 3.33**, providing CRUD operations for persistence.
 
+Blah blah blah
+
 ## 🚀 Quick Start
 
 [Open in Dev Spaces](https://devspaces.apps.prime.pitt.ca/#https://github.com/pittar-rhdh/andrewq10)
