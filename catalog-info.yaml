@@ -1,0 +1,41 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: andrewq10
+  description: A cool quarkus chatbot app
+  annotations:
+    backstage.io/source-location: url:https://github.com/pittar-rhdh/andrewq10/
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/kubernetes-id: andrewq10
+    janus-idp.io/tekton: andrewq10
+    argocd/app-selector: rht-gitops.com/openshift-gitops=andrewq10
+    acs/deployment-name: "andrewq10,postgresql-andrewq10"
+  tags:
+    - java
+    - quarkus
+  links:
+    - url: https://devspaces.apps.prime.pitt.ca/#https://github.com/pittar-rhdh/andrewq10
+      title: Open in Dev Spaces
+      icon: web
+    - url: https://developers.redhat.com/blog
+      title: Red Hat Blog
+      icon: web
+spec:
+  type: service
+  lifecycle: production
+  owner: group:default/teamlead
+  providesApis:
+    - andrewq10
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: andrewq10
+  title: My Demo App OpenAPI Specification
+  description: REST API endpoints for the My Demo App application
+spec:
+  type: openapi
+  lifecycle: production
+  owner: group:default/teamlead
+  definition:
+    $text: ./src/main/openapi/openapi.yaml

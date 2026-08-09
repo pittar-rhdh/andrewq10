@@ -1,0 +1,10 @@
+site_name: andrewq10
+site_description: A cool quarkus chatbot app
+repo_url: https://github.com/pittar-rhdh/andrewq10
+
+plugins:
+  - techdocs-core
+
+# Note for content editors, edit only the section below
+nav:
+  - andrewq10 Documentation: index.md
