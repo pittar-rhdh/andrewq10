@@ -4,7 +4,7 @@ A RESTful My Demo App API built with **Java 21** and **Quarkus 3.33**, providing
 
 ## 🚀 Quick Start
 
-[Open in Dev Spaces](https://devspaces.apps.cluster-6tx9h.6tx9h.sandbox50.opentlc.com/#https://github.com/pittar-rhdh/andrewq10)
+[Open in Dev Spaces](https://devspaces.apps.prime.pitt.ca/#https://github.com/pittar-rhdh/andrewq10)
 
 ```bash
 # Start in dev mode with live reload
