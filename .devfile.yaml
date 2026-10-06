@@ -31,8 +31,8 @@ components:
         - name: QUARKUS_ANALYTICS_DISABLED
           value: "true"
         # --- Kubedock & Testcontainers Configuration ---
-        - name: KUBEDOCK_ENABLED
-          value: "true"
+        # - name: KUBEDOCK_ENABLED
+        #   value: "true"
         - name: DOCKER_HOST
           value: "tcp://127.0.0.1:2475"
         - name: TESTCONTAINERS_RYUK_DISABLED
